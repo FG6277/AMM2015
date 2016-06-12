@@ -91,12 +91,12 @@
         <h3> Link utili</h3>
         <p> <strong> Homepage</strong> </p>
         <ul>
-            <li> <a></a></li>
+            <li> <a href="http://spano.sc.unica.it/amm2015/gerinaFederica/ProgettoAmm2015/php/index.php?page=login" target="_blank">http://spano.sc.unica.it/amm2015/gerinaFederica/ProgettoAmm2015/php/index.php?page=login</a></li>
         </ul>
         
         <p> <strong> Repository GIT</strong> </p>
         <ul>
-            <li> <a></a></li>
+            <li><a href="https://github.com/FG6277/AMM2015/blob/master/ProgettoAmm2015" target="_blank">https://github.com/FG6277/AMM2015/blob/master/ProgettoAmm2015</a></li>
         </ul>
         </div>
     </body>
