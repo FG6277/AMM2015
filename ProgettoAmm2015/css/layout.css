@@ -1,0 +1,471 @@
+body{
+    background-color:midnightblue;
+    font: 13px/20px "Open Sans", Arial, sans-serif;
+}
+
+#pagina{
+    background-color:highlight;
+    border: 2px solid;
+    padding-left: 30px;
+    padding-right: 50px;
+    color: midnightblue;
+    
+}
+
+#header {
+    background-color: royalblue;
+    height: 400px;
+
+}
+
+#footer p{
+    display: block; 
+    margin: auto;
+    font-style: italic;
+    width: 900px;
+    text-align: center;
+}
+
+
+#navigazione{
+    padding-left: 300px;
+}
+
+#navigazioneI{
+    padding-left: 100px;
+}
+
+#navigazione a , #navigazioneI a{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+#navigazione a:hover , #navigazioneI a:hover{
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+}
+
+.valido {
+   font-style: italic;
+   color: lime;
+}
+
+
+p.messaggio {
+    background-color: cornflowerblue;
+    border: 1px solid white; 
+    position: relative;
+    margin-left: 6%;
+    margin-right: 5%;
+    min-height: 30px;
+    width: 400px;
+    color:  white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+p.error{
+    background-color: cornflowerblue;
+    border: 1px solid white; 
+    position: relative;
+    margin-left: 35%;
+    margin-right: 30%;
+    min-height: 30px;
+    width: 400px;
+    color:  white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#social a:link{
+    color: white;
+}
+#social a:hover{
+    font-weight: bold;
+}
+#social a:visited{
+    color: midnightblue;
+    text-decoration: underline;}
+
+
+#menu ul li a:link{
+    color: white;
+}
+#menu ul li a:hover{
+    font-weight: bold;
+}
+
+h2{
+    color: midnightblue; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+h3{
+    color:white;
+}
+
+li a:link{
+    text-decoration: underline;
+    color: midnightblue;
+}
+li a:visited{
+    text-decoration: underline;
+    color: midnightblue;
+}
+li a:hover{
+    font-weight: bold;
+}
+
+input[type=submit], button{
+    color: white;
+    background-color: royalblue;
+    height: 2em;
+    font-weight: bold;
+    border-radius: 4em;
+    border: 2px solid midnightblue;
+    min-width: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+input {
+    border: 3px solid midnightblue;
+}
+
+input[type=submit]:hover, button:hover{
+    cursor: pointer;
+    background-color: midnightblue;
+    border: 3px solid white;
+}
+
+#login h3{
+    color:midnightblue;
+    text-align: center;
+}
+
+#modificaCorsi, #impostazioniSicurezza, #aggiungiIscrizione, #aggiungiStudente, #aggiungiCorso{
+    background-color: royalblue;
+    border: 2px solid midnightblue;
+    
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#iscrizioneStudente h3{
+    border: 2px solid midnightblue;
+    background-color: white;
+    color: midnightblue;
+}
+
+.input-form{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    line-height: 2em;
+}
+
+
+.input-form input[type=submit], .input-form button{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#datan {
+    padding-left: 5px;
+    margin-left: 1%;
+}
+
+#tel{
+    padding-left: 5px;
+    margin-left: 1%;
+}
+
+#email{
+    padding-left: 5px;
+    margin-left: 1%;
+}
+
+#cod{
+    padding-left: 5px;
+    margin-left: 1%;
+}
+
+.save input[type=submit], .save button{
+    display: inline-block;
+}
+
+.save{
+    text-align: center;
+}
+
+
+table {
+    border: 3px solid midnightblue;
+    border-collapse: collapse;
+    line-height: 1em;
+    width: 99%;
+    font-size: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+}
+
+.corsi{
+    width: 50%;
+}
+
+tr, td{
+    background-color: highlight;
+}
+
+tr.alt-row, tr.alt-row td{
+    background-color: highlight;
+}
+
+#modifica{
+    color: midnightblue;
+}
+#modifica:hover{
+    font-weight: bold;
+}
+
+#bio{
+    margin-top: 5%;
+    margin-bottom: auto;
+}
+
+.slider{
+    width:200px;
+    height: 100px;
+    padding-left: 300px;
+    padding-right: 250px;
+}
+
+.slides{
+    width:100%;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+
+    #pagina {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+
+    #sidebar2 {
+        margin-top: 2%;
+        float: right;
+        width: 20%;  
+        text-align: justify;
+    }
+    
+    #content {
+        
+        border: 3px solid midnightblue;
+        background-color: white;
+        display: block;
+        position: relative;
+        
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+        margin-right: 25%;
+        
+        padding-right: 5px;
+        
+        min-height: 450px;
+        width: 750px;
+        color: midnightblue;
+        text-align: justify;
+    }
+    
+    #content h2 {
+        border: 2px solid midnightblue;
+        display: block;
+       
+        margin: 10px;
+        margin-bottom: 20px;
+        
+        text-align: center;
+        
+        position: relative;
+        background-color: royalblue;
+        color: white;
+        
+    }
+     
+    
+    #content b, #content p {   
+       padding-left: 15px;  
+       padding-right: 15px;
+    }
+    
+    select.menu {
+        display: none;
+    }
+    
+    #header{
+        margin-top: 20px;
+        clear: both;
+        height: 460px;
+    }
+    
+     #header, #footer{
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 1000px;
+        left: -20px;
+    }
+    
+    
+    #logo{
+        position: absolute;
+    }
+    
+    #menu{
+        position: relative;
+        float: right;
+        display: inline-block;
+    }
+    
+    #menu ul{
+        position: relative;
+        display: inline-block;
+        list-style: none;
+    }
+
+    #menu ul li{
+        position: relative;
+        display: inline-block;
+        color: white;
+    }
+    
+    #menu a:link, #menu a:visited{
+        color: white;
+    }
+    
+    div#logo h1 {
+        background-image: url('../images/Logo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        text-align: center;
+        height:400px;
+        width: 500px;
+        vertical-align: middle;
+        padding-left: 500px;
+        margin-top: 35px;
+        line-height: 100px;
+        color: white; 
+        display: block;
+    }
+    
+    #benvenuto{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .profilo{
+        margin-left: 10px;
+        margin-bottom: 5%;
+        margin-right: 10px;
+        padding-left: 30px;
+        float:top contour;
+        background-color: royalblue;
+        border: 2px solid midnightblue;
+        text-align: center;
+        color: white;
+    }
+    
+    .profilo h3{
+        padding-bottom: 30px;
+    }
+    
+    .contenuto{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5%;
+        float:left;
+        text-align: center;
+    }
+    
+    .contenuto li{
+        line-height: 0.5em;
+        border: 3px solid midnightblue;
+        display: block;
+        width: 250px;
+        height: 20px;
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 50px;
+        
+        position: relative;
+        background-color: white;
+        text-align: center;
+    }
+    
+    .contenuto li a{
+        line-height: 2em; 
+        color: midnightblue;
+        text-align: center;
+        font: 15px "Open Sans", Calibri, sans-serif;
+    }
+    
+    .contenuto li:hover{
+        font: white;
+        background-color: midnightblue;
+        border: 3px solid white;
+    }
+    
+    .contenuto a:hover{
+        color: white;
+    }
+       
+}

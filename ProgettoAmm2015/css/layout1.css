@@ -1,0 +1,33 @@
+body{
+    background-color:royalblue;
+    font: 13px/20px "Open Sans", Arial, sans-serif;
+    text-align: justify;
+}
+
+#pagina{
+    background-color:highlight;
+    border: 2px solid;
+    padding-left: 30px;
+    padding-right: 50px;
+    color: midnightblue;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+header{
+    background-color: midnightblue;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    height: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
