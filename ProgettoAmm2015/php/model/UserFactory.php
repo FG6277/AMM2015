@@ -389,7 +389,7 @@ class UserFactory {
             return 0;
         }
 
-        if (!$stmt->bind_param('isssssss',$utente->getNome(), $utente->getCognome(), $utente->getDataNascita(),
+        if (!$stmt->bind_param('sssssssi',$utente->getNome(), $utente->getCognome(), $utente->getDataNascita(),
                                 $utente->getEmail(), $utente->getTelefono(), $utente->getUsername(), $utente->getPassword(), $utente->getId())) {
             error_log("Impossibile effettuare il binding in input");
             return 0;
