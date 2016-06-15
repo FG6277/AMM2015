@@ -30,7 +30,7 @@ class Sicurezza {
         }
 
         if (!preg_match("/^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*$/", $password)) {
-            return "Password non valida! Assicurarsi di aver inserito almeno un lettera maiuscola e un numero.";
+            return "Password non valida! Assicurarsi di aver inserito almeno un lettera maiuscola, una minuscola e un numero.";
         }
      
         return true;
