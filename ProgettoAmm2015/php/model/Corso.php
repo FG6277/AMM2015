@@ -99,26 +99,6 @@ class Corso {
         $this->iscritti[] = $utente;
         return true;
     }
-    
-    /*Controlla se un utente è iscritto al corso
-    public function utenteIscritto(Utente $utente) {
-        $pos = $this->posizioneIscritto($utente);
-        if ($pos > -1) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-    
-    /*Determina la posizione dell'utente nella lista di iscritti (Funzione chiamata da utenteIscritto)
-    private function posizioneIscritto(Utente $utente) {
-        for ($i = 0; $i < count($this->iscritti); $i++) {
-            if ($this->iscritti[$i]->equals($utente)) {
-                return $i;
-            }
-        }
-        return -1;
-    }*/
       
     public function &getIscritti() {
         return $this->iscritti;
